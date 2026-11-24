@@ -1,6 +1,6 @@
 {
   "name": "@local/session-doc-export",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "把 DSH 会话导出成人可读的 Markdown / HTML / JSON，可选附带工具轨迹",
