@@ -2,7 +2,7 @@
 
 把 DSH 会话导出成**人可读**的文档（Markdown / HTML / JSON），可选附带工具轨迹；支持逐条勾选多个会话，打包成 ZIP。
 
-## 环境
+## 项目环境
 
 实测可用的组合：
 
@@ -88,8 +88,7 @@ test/render-check.mjs 离线渲染自检（六种产物 + 断言）
 test/host-check.mjs   mock 上下文跑 apply，验证路由/命令/文件名/批量 ZIP/选择器
 test/client-check.mjs 模拟模块加载器，验证 client 注册行为与浮层结构
 test/zip-check.mjs    打包 → 交给 Expand-Archive 验证
-test/style-probe.mjs  造一页样例给截图核对排版
-docs/screenshot.png   排版截图（由 style-probe 产出）
+test/style-probe.mjs  渲染一页排版样例 HTML，供人眼核对
 ```
 
 ## 使用说明
